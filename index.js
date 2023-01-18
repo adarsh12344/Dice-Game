@@ -1,7 +1,7 @@
 var randomnumber1 = Math.floor(Math.random()*6) + 1;
 var randomdiceimage = "dice" + randomnumber1 + ".png";
 var randomdiceimagesource = randomdiceimage;
-
+//forkig
 var image1 = document.querySelectorAll("img")[0];
 
 image1.setAttribute("src",randomdiceimagesource);
